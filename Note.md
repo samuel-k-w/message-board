@@ -19,3 +19,4 @@
 {% endfor %}
 </ul>
 15. add urls file in posts 
+16. create homepage view class
