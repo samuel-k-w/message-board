@@ -12,3 +12,10 @@
 11. in root folder create templates/
 12. Templates = [
 13. "DIRS" : [BASE_DIR / "templates"]]
+14. create home.html and add post listing using for loop  
+``<ul>
+{% for post in post_list %}
+<li>{{ post.text }}</li>
+{% endfor %}
+</ul>
+15. add urls file in posts 
