@@ -8,4 +8,7 @@
 7. **python manage.py migrate**
 8. **python manage.py createsuperuser**
 9. register Post model to admin site **admin.site.register(Post)**
-10. add to post mode a __srt__ method 
+10. add to post mode a **__srt__():** method 
+11. in root folder create templates/
+12. Templates = [
+13. "DIRS" : [BASE_DIR / "templates"]]
