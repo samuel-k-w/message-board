@@ -20,3 +20,13 @@
 </ul>
 15. add urls file in posts 
 16. create homepage view class
+
+# setting up tests
+1. inside test.py **from .models import Post**
+2. **class PostTests(TestCase):**
+3. anotate the setup Function **@classmethod**
+4. define **def setUpTestData(cls):**
+5. **cls.post = Post.objects.create(text='this is test text')**
+6. then test post model content with another test function
+7. install gunicorn
+8. deploy
